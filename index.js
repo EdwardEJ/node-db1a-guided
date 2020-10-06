@@ -1,5 +1,6 @@
 const express = require('express');
 const helmet = require('helmet'); //provides security defaults
+const db = require('./database/connection.js');
 
 const server = express();
 
